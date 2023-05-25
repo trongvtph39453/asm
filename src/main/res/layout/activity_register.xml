@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:padding="20dp"
+    tools:context=".register">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="chào mừng bạn,"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#2598F2"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng kí tài khoản"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"></TextView>
+    <EditText
+        android:id="@+id/edtuserdk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nhập usernames"
+        android:textColorHint="#FF152897"></EditText>
+    <EditText
+        android:id="@+id/edtpassworđk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nhập password"
+        android:textColorHint="@color/black"></EditText>
+    <EditText
+        android:id="@+id/edtnlpassworđk"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="nhập lại password"
+    android:textColorHint="@color/black"></EditText>
+
+    <Button
+        android:id="@+id/btndangnhapdk"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#1192CC"
+        android:text="Đăng nhập"></Button>
+    <Button
+       android:id="@+id/btntrovedk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#565B73"
+        android:text="trở về"></Button>
+</LinearLayout>

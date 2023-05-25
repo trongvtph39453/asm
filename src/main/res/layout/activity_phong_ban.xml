@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".phongBan">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#2890BF"
+    android:drawableLeft="@drawable/out"
+    android:text="phòng ban"
+    android:textSize="30sp"
+    android:textColor="@color/white"
+    android:drawableRight="@drawable/search"></EditText>
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/home"
+        android:text="nhân sự"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:background="#AF792A"></EditText>
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/home"
+        android:text="hành chính"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:background="#AF792A"></EditText>
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/home"
+        android:text="đào tạo"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:background="#AF792A"></EditText>
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:padding="20dp"
+    tools:context=".loggin">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="chào mừng chở lại,"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#2598F2"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vui lòng đăng nhập để sử dụng"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"></TextView>
+    <EditText
+        android:id="@+id/edtuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nhập usernames"
+        android:textColorHint="#FF152897"></EditText>
+    <EditText
+        android:id="@+id/edtpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nhập password"
+        android:textColorHint="@color/black"></EditText>
+    <CheckBox
+        android:id="@+id/chktk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ghi nhớ tài khoản"
+        android:textStyle="bold"
+        android:textSize="20dp"></CheckBox>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btndangNhap"
+
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#74CC0E"
+            android:text="Đăng nhập"></Button>
+
+        <Button
+            android:id="@+id/btndangKi"
+            android:layout_width="191dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:backgroundTint="#C34017"
+            android:text="Đăng kí"></Button>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
